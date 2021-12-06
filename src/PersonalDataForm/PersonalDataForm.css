@@ -1,0 +1,36 @@
+.content {
+    max-height: 500px;
+}
+
+.form-wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.form-title {
+    font-size: 50px;
+    margin: 50px 0 30px;
+}
+
+.personal-data-form {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column !important;
+}
+
+.personal-data-form-input {
+    margin: 20px 0 0 !important;
+}
+
+.personal-data-form-submit {
+    margin: 20px 0 0 !important; 
+}
+
+.overlay {
+    background-color: gray;
+    opacity: .5;
+}

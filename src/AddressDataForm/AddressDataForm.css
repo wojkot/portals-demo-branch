@@ -1,0 +1,44 @@
+.address-view {
+    position: relative;
+}
+
+.content {
+    max-height: 500px;
+}
+
+.address-form-wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.other-form-wrapper {
+
+position: absolute;
+top: 20px;
+left: 45%;
+
+}
+
+.form-title {
+    font-size: 50px;
+    margin: 50px 0 30px;
+}
+
+.address-data-form {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column !important;
+}
+
+.address-data-form-input {
+    margin: 20px 0 0 !important;
+}
+
+.address-data-form-submit {
+    margin: 20px 0 0 !important; 
+}

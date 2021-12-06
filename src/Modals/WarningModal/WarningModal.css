@@ -1,0 +1,16 @@
+.modal-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal {
+    max-width: 400px;
+    width: 80vw;
+    height: 20vh;
+    background: azure;
+    text-align: center;
+    padding: 20px;
+    border: 5px solid black;
+  }

@@ -1,0 +1,49 @@
+.light-switcher-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lamp {
+    width: 1000px;
+    height: 300px;
+    background-color: black;
+}
+
+.glowing-lamp {
+    background-color: yellow; 
+}
+
+.buttons-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.btn-info {
+    width: 200px;
+    height: 100px;
+    background-color: skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 0 20px;
+}
+
+.div-btn-info {
+    width: 184px;
+    height: 94px;
+    padding: 1px 6px;
+    background-color: skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px black solid;
+    margin: 0 20px;
+}
+
+.div-btn-info:active {
+    border-color: rgb(118, 118, 118);
+}
